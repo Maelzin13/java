@@ -12,3 +12,18 @@ Content-Type: application/json
   "username": "Ismael Dias",
   "password": "1234"
 }
+
+###
+
+# @name task
+POST http://localhost:8080/tasks/
+Content-Type: application/json
+
+{
+  "description": "Teste mael",
+  "title": "Ismael Dias",
+  "priority": "ALTA",
+  "startAt": "2023-10-12T22:22:00",
+  "endAt": "2023-10-12T23:22:00",
+  "idUser": "e97a4985-5318-4f75-ab61-8b8001def2e5"
+}
